@@ -379,9 +379,7 @@
         "microvia_drill": 0.1,
         "name": "capboard",
         "nets": [
-          "GND",
-          "Net-(J1-Pad1)",
-          "Net-(J4-Pad1)"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

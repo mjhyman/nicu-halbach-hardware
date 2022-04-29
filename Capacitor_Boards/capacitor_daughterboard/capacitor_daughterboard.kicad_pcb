@@ -194,7 +194,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (layer "B.Cu")
     (tedit 59FED5CC) (tstamp e9febdd1-669e-46f3-983e-2ded7b5fa339)
-    (at 133 75.925 180)
+    (at 132.75 76 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (property "Sheetfile" "capacitor_daughterboard.kicad_sch")
@@ -245,7 +245,7 @@
     )
   )
 
-  (gr_rect (start 131 71) (end 150 91) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 4fa411d9-11e1-4e2c-9f65-925492880ff1))
+  (gr_rect (start 130.75 71) (end 150 91) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 4fa411d9-11e1-4e2c-9f65-925492880ff1))
 
   (segment (start 148 81.08) (end 143.92 81.08) (width 3.175) (layer "F.Cu") (net 1) (tstamp 1c607436-95e4-4659-ac1f-769eb22cee7d))
   (segment (start 143.92 81.08) (end 143.725 81.275) (width 3.175) (layer "F.Cu") (net 1) (tstamp 395c9465-4134-49ca-b370-a73bcf001214))
@@ -255,12 +255,13 @@
   (segment (start 148 81.08) (end 148 73) (width 3.175) (layer "F.Cu") (net 1) (tstamp ca608982-c74e-4693-b4f6-f403d299d450))
   (segment (start 148 81.08) (end 148 89) (width 3.175) (layer "F.Cu") (net 1) (tstamp ded8d1e4-a756-45fb-b900-11912758cb96))
   (segment (start 137 73) (end 137 81) (width 3.175) (layer "F.Cu") (net 2) (tstamp 00f8a3d6-cdbe-4347-bfd0-95863f6ab0d1))
-  (segment (start 133 81.005) (end 133 89) (width 3.175) (layer "F.Cu") (net 2) (tstamp 15dc885f-6666-4740-9a2c-2714ef3fc7b8))
+  (segment (start 132.83 81) (end 132.75 81.08) (width 3.175) (layer "F.Cu") (net 2) (tstamp 2831ad4b-4144-49c0-a420-4b5b247e31fc))
   (segment (start 137 83) (end 137 84.975) (width 3.175) (layer "F.Cu") (net 2) (tstamp 3b8af0a0-5296-4616-9d1b-32edc1753689))
   (segment (start 137 81) (end 137 83) (width 3.175) (layer "F.Cu") (net 2) (tstamp 43b08ff7-8b97-4f9f-b8b8-fd54333efde6))
   (segment (start 137 81) (end 136.995 81.005) (width 3.175) (layer "F.Cu") (net 2) (tstamp 74879186-cb05-4567-bafd-12b2abc3fb90))
-  (segment (start 136.995 81.005) (end 133 81.005) (width 3.175) (layer "F.Cu") (net 2) (tstamp a7bf0675-e559-4f43-9790-ab611b4cd1c7))
-  (segment (start 133 73) (end 133 81.005) (width 3.175) (layer "F.Cu") (net 2) (tstamp df323e2e-4d50-4fb0-bf04-f222cc534183))
+  (segment (start 132.75 81.08) (end 132.75 89) (width 3.175) (layer "F.Cu") (net 2) (tstamp 7aa71125-5909-4ae4-8517-a0e461459a45))
+  (segment (start 132.75 81.08) (end 132.75 73) (width 3.175) (layer "F.Cu") (net 2) (tstamp af87a611-f950-4520-becc-e8b363236096))
   (segment (start 137.025 85) (end 137.025 88.975) (width 3.175) (layer "F.Cu") (net 2) (tstamp dfa19c7e-e204-4290-bbea-5c76a9484103))
+  (segment (start 137.025 81) (end 132.83 81) (width 3.175) (layer "F.Cu") (net 2) (tstamp e7f8071b-d019-4bb1-9dba-74904706821e))
 
 )
